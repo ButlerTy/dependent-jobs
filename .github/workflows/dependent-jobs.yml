@@ -4,12 +4,12 @@ on: push
 
 jobs: 
   job_on_ubuntu:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: date
   job_on_windows:
     name: a windows job
-    runs-on: windows-lastest
+    runs-on: windows-latest
     steps:
       - name: First step in windows job
         run: date
